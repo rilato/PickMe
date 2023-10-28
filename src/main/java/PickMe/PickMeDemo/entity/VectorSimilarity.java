@@ -24,10 +24,9 @@ public class VectorSimilarity {
     private double similarity;
 
 
-    public VectorSimilarity(Integer[] VectorA, Integer[] VectorB, double similarity){
+    public VectorSimilarity(Integer[] VectorA, Integer[] VectorB){
         this.vectorA = VectorA;
         this.vectorB = VectorB;
-        this.similarity = similarity;
     }
 
 }
